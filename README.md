@@ -3,7 +3,7 @@
 
 Science is an object-oriented CSS framework built on best-practice. It supports all modern browsers and IE 8+.
 
-1. ** Mobile-first**
+1. **Mobile-first**
 	Science uses progressive enhancement to adjust to larger screens.
 
 2. **Abstraction-light**
