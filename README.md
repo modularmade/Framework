@@ -19,7 +19,11 @@ Science is an object-oriented CSS framework built on best-practice. It supports 
 
 #Installing
 
-git clone `https://github.com/modularmade/science.git`
+git clone `https://github.com/modularmade/science.css.git`
+
+#Requirements
+
+* Sass 3.3
 
 #Structure
 
