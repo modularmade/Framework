@@ -1,0 +1,33 @@
+@if $use-input == true  {
+	
+/* 
+   $input
+   ========================================================================== */
+
+//
+// The input object is used to create textboxes without needing the [type] selector.
+//
+
+.input {
+	display: inline-block;
+    padding: 0.5em 0.6em;
+    line-height: normal;
+    border: 1px solid $ui-border;
+}
+
+	.input:focus {
+        outline: 0;
+        outline: thin dotted \9;
+        border-color: $ui-focus;
+	}
+	
+/* 
+   $input--block
+   ========================================================================== */
+
+.input--block {
+	display: block;
+	width: 100%;
+}
+
+} //end if

@@ -1,0 +1,11 @@
+@if $use-ov == true {
+	
+/* 
+   $ov
+   ========================================================================== */
+
+.ov-v { overflow: visible; }
+.ov-h {	overflow: hidden; }
+.ov-s { overflow: scroll; }
+
+} //end if

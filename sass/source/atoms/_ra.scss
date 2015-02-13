@@ -1,0 +1,15 @@
+@if $use-ra == true {
+
+/* 
+   $ra
+   ========================================================================== */
+
+.ra-n	{ border-radius: 0; }
+.ra-xs	{ border-radius: $ra-xs; }
+.ra-s 	{ border-radius: $ra-s; }
+.ra-m 	{ border-radius: $ra-m; }
+.ra-l	{ border-radius: $ra-l; }
+.ra-xl	{ border-radius: $ra-xl; }
+.ra-p	{ border-radius: 99px; }
+
+} //end if

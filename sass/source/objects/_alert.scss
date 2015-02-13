@@ -1,0 +1,20 @@
+@if $use-alert == true {
+
+/* 
+   $alert
+   ========================================================================== */
+
+//
+// The alert object is used to create alert notifications.
+//
+
+.alert {
+	@extend %mb-m;
+	display: block;
+	padding: $sp-s;
+    border-radius: $ui-radius;
+	font-size: 85%;
+}
+
+} //end if
+

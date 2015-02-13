@@ -1,0 +1,13 @@
+@if $use-nmt == true {
+	
+/* 
+   $nmt
+   ========================================================================== */
+
+.nmt-xs	{ margin-top: -$sp-xs; }
+.nmt-s	{ margin-top: -$sp-s; }
+.nmt-m	{ margin-top: -$sp-m; }
+.nmt-l 	{ margin-top: -$sp-l; }
+.nmt-xl { margin-top: -$sp-xl; }
+
+} //end if

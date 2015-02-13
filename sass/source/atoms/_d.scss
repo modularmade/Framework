@@ -1,0 +1,12 @@
+@if $use-d == true {
+
+/* 
+   $d
+   ========================================================================== */
+
+.d-n 	{ display: none; }
+.d-b 	{ display: block; }
+.d-i 	{ display: inline; }
+.d-ib	{ display: inline-block; *display: inline; zoom: 1; }
+
+} //end if

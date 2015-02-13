@@ -1,0 +1,14 @@
+@if $use-ma == true {
+
+/* 
+   $ma
+   ========================================================================== */
+
+.ma-n	{ margin: 0; }
+.ma-xs 	{ margin: $sp-xs; }
+.ma-s	{ margin: $sp-s; }
+.ma-m 	{ margin: $sp-m; }
+.ma-l 	{ margin: $sp-l; }
+.ma-xl	{ margin: $sp-xl; }
+
+} //end if

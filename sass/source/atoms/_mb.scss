@@ -1,0 +1,15 @@
+@if $use-mb == true {
+
+/* 
+   $mb
+   ========================================================================== */
+
+.mb-n	{ margin-bottom: 0; }
+.mb-xs 	{ margin-bottom: $sp-xs; }
+.mb-s 	{ margin-bottom: $sp-s; }
+.mb-m	{ margin-bottom: $sp-m; }
+.mb-l 	{ margin-bottom: $sp-l; }
+.mb-xl 	{ margin-bottom: $sp-xl; }
+
+} //end if
+

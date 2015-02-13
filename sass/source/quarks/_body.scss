@@ -1,0 +1,13 @@
+/* 
+   $body
+   ========================================================================== */
+
+//
+// Set the base font, line-height, and color.
+//
+
+body {
+	font: #{$fz-m}/#{$lh-m} $body-font;
+	color: $body-color;
+	overflow-y: scroll;
+}

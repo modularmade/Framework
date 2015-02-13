@@ -1,0 +1,44 @@
+@if $use-data == true {
+
+/* 
+   $data
+   ========================================================================== */
+
+//
+// The data object is used to create tables for displaying data.
+//
+
+.data th {
+    padding-top: 0;
+}
+
+.data td {
+    border-top: 1px dotted $ui-border;
+}
+
+.data input[type="image"] {
+    margin-right: $sp-xs;
+}
+
+/* 
+   $data--prop
+   ========================================================================== */
+
+//
+// Remove the top border if there is no thead present.
+//
+
+.data--prop > tbody > tr:first-child > td {
+	border-top: 0;
+}
+
+/* 
+   $data--zebra
+   ========================================================================== */
+
+.data--zebra > tbody > tr:nth-child(odd) > td {
+	background: $data-zebra;
+}
+
+} //end if
+

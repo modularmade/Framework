@@ -1,0 +1,14 @@
+@if $use-pa == true {
+	
+/* 
+   $pa
+   ========================================================================== */
+
+.pa-n 	{ padding: 0; }
+.pa-xs	{ padding: $sp-xs; }
+.pa-s 	{ padding: $sp-s; }
+.pa-m 	{ padding: $sp-m; }
+.pa-l 	{ padding: $sp-l; }
+.pa-xl 	{ padding: $sp-xl; }
+
+} //end if

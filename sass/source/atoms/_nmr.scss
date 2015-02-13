@@ -1,0 +1,13 @@
+@if $use-nmr == true {
+	
+/* 
+   $nmr
+   ========================================================================== */
+
+.nmr-xs	{ margin-right: -$sp-xs; }
+.nmr-s 	{ margin-right: -$sp-s; }
+.nmr-m 	{ margin-right: -$sp-m; }
+.nmr-l 	{ margin-right: -$sp-l; }
+.nmr-xl { margin-right: -$sp-xl; }
+
+} //end if

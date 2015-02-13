@@ -1,0 +1,10 @@
+@if $use-cur == true {
+
+/* 
+   $cur
+   ========================================================================== */
+
+.cur-d { cursor: default; }
+.cur-p { cursor: pointer; }
+
+} //end if

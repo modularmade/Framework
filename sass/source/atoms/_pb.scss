@@ -1,0 +1,14 @@
+@if $use-pb == true {
+
+/* 
+   $pb
+   ========================================================================== */
+
+.pb-n 	{ padding-bottom: 0; }
+.pb-xs	{ padding-bottom: $sp-xs; }
+.pb-s 	{ padding-bottom: $sp-s; }
+.pb-m	{ padding-bottom: $sp-m; }
+.pb-l 	{ padding-bottom: $sp-l; }
+.pb-xl	{ padding-bottom: $sp-xl; }
+
+} //end if

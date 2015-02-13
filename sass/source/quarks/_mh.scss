@@ -1,0 +1,15 @@
+/* 
+   $mh
+   ========================================================================== */
+
+//
+// Larger font-sizes to capture the readers attention.
+//
+
+.hero {
+	@include fz($hero);
+}
+
+.lead {
+	@include fz($lead, $sp-l);
+}

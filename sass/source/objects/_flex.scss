@@ -1,0 +1,36 @@
+@if $use-flex == true {
+
+/* 
+   $flex
+   ========================================================================== */
+
+//
+// The flex object is an alternative to flexbox until its more widely supported.
+//
+
+.flex {
+	display: table;
+	width: 100%;
+}
+	
+	.flex__item {
+		display: table-row;
+	}
+
+@include media(small) {
+
+	.flex__item {
+		display: table-cell;
+	}
+
+} 
+
+/* 
+   $flex--fixed
+   ========================================================================== */
+
+.flex--fixed {
+	table-layout: fixed;
+}
+
+} //end if

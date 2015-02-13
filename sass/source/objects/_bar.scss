@@ -1,0 +1,25 @@
+@if $use-bar == true {
+	
+/* 
+   $bar
+   ========================================================================== */
+
+//
+// Used to create a progress bar.
+//
+
+.bar {
+	@extend %cf;
+	display: block;
+	height: $sp-m;
+	padding: $ui-radius;
+	border: 1px solid $ui-border;
+}
+
+	.bar__value {
+		display: block;
+		height: 100%;
+		background: $bar-color;
+	}
+
+} //end if

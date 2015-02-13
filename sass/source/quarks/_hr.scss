@@ -1,0 +1,13 @@
+/* 
+   $hr
+   ========================================================================== */
+
+//
+// Subtract two pixels from the bottom margin to accomidate the border size.
+//
+
+hr {
+	margin-bottom: $sp-m - 2px;
+	border: 0;
+	border-bottom: 1px solid $ui-border;
+}

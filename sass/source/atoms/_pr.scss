@@ -1,0 +1,14 @@
+@if $use-pr == true {
+
+/* 
+   $pr
+   ========================================================================== */
+
+.pr-n 	{ padding-right: 0; }
+.pr-xs	{ padding-right: $sp-xs; }
+.pr-s 	{ padding-right: $sp-s; }
+.pr-m	{ padding-right: $sp-m; }
+.pr-l 	{ padding-right: $sp-l; }
+.pr-xl	{ padding-right: $sp-xl; }
+
+} //end if

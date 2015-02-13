@@ -1,0 +1,21 @@
+@if $use-media == true and $use-img == true {
+
+/* 
+   $media
+   ========================================================================== */
+
+//
+// The media object floats an image next to content. Requires the img object.  
+//
+// Thanks to Nicole Sullivan
+
+.media {
+	@extend %cf;
+ 	@extend %mb-m;
+}
+
+	.media__body, .media {
+		overflow: hidden;
+	}
+
+} //end if

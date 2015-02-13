@@ -1,0 +1,27 @@
+@if $use-grid == true {
+
+/* 
+   $grid
+   ========================================================================== */
+
+//
+// The grid object is used to create a fluid grid with a gutter.
+//
+// Thanks to Harry Roberts
+//
+
+.grid {
+	@extend %cf;
+	margin-left: -$sp-m;
+}
+
+	.grid > .grid {
+		margin-left: 0;
+	}
+
+	.grid__item {
+		float: left;
+		padding-left: $sp-m;
+	}
+
+} //end if

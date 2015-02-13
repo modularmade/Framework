@@ -1,0 +1,29 @@
+@if $use-matrix == true {
+
+/* 
+   $matrix
+   ========================================================================== */
+
+//
+// The matrix object creates a grid out of a list. 
+//
+
+.matrix {
+	@extend %cf;
+	@extend %sp-n;
+	list-style: none;
+}
+
+	.matrix > li > a {
+		display: block;
+	}
+
+@include media(small) {
+
+	.matrix > li {
+		float: left;
+	}
+
+} 
+
+} //end if

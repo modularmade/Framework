@@ -1,0 +1,36 @@
+@if $use-img == true  {
+	
+/* 
+   $img
+   ========================================================================== */
+
+//
+// The img object is used to float and image and create a margin around it.
+//
+
+%img {
+	@extend %mb-m;
+	display: block;
+}
+
+/* 
+   $img--l
+   ========================================================================== */
+
+.img--l { 
+	@extend %img;
+	float: left; 
+	margin-right: $sp-m; 
+}
+
+/* 
+   $img--r
+   ========================================================================== */
+	
+.img--r { 
+	@extend %img;		
+	float: right; 
+	margin-left: $sp-m; 
+}
+
+} //end if

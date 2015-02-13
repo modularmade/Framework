@@ -1,0 +1,14 @@
+@if $use-pt == true {
+
+/* 
+   $pt
+   ========================================================================== */
+
+.pt-n	{ padding-top: 0; }
+.pt-xs	{ padding-top: $sp-xs; }
+.pt-s	{ padding-top: $sp-s; }
+.pt-m 	{ padding-top: $sp-m; } 
+.pt-l 	{ padding-top: $sp-l; }
+.pt-xl  { padding-top: $sp-xl; }
+
+} //end if

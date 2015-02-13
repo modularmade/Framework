@@ -1,0 +1,18 @@
+@if $use-box == true {
+
+/* 
+   $box
+   ========================================================================== */
+
+//
+// The box object boxes off content from the rest of the page.
+//
+
+.box {
+	@extend %mb-m;
+	display: block;
+	padding: $sp-m;
+}
+
+} //end if
+

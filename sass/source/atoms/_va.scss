@@ -1,0 +1,11 @@
+@if $use-va == true {
+
+/* 
+   $va
+   ========================================================================== */
+
+.va-t	{ vertical-align: top; }
+.va-m	{ vertical-align: middle; }
+.va-b	{ vertical-align: bottom; }
+
+} //end if

@@ -1,0 +1,43 @@
+@if $use-bg == true {
+	
+/* 
+   $bg
+   ========================================================================== */
+
+//
+// The bg object is used to create cover, parallax, and tiles background images.
+//
+
+%bg {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+/* 
+   $bg--cover
+   ========================================================================== */
+
+.bg--cover {
+	@extend %bg;
+	background: 50% / cover no-repeat; 
+}
+
+/* 
+   $bg--para
+   ========================================================================== */
+
+.bg--para {
+	@extend %bg;
+	background: 50% / cover fixed;
+}
+
+/* 
+   $bg--tile
+   ========================================================================== */
+
+.bg--tile {
+	@extend %bg;
+	background: 50% repeat;
+}
+
+} //end if

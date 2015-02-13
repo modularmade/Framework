@@ -1,0 +1,47 @@
+@if $use-btn == true {
+
+/* 
+   $btn
+   ========================================================================== */
+
+//
+// The btn object creates flat buttons that appears the same between links and inputs.
+//
+// Thanks to Pure.css
+//
+
+.btn {
+	display: inline-block;
+    padding: 0.5em 1em;
+    line-height: normal;
+    outline: 0;
+    border: 1px solid transparent;
+    border-radius: $ui-radius;
+    white-space: nowrap;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #fff;
+    background: $ui-button;	
+}
+
+	.btn:hover {
+		background: lighten($ui-button, 4%);
+	}
+
+	.btn:active {
+		background: darken($ui-button, 4%);
+	}
+
+/* 
+   $btn--disabled
+   ========================================================================== */
+
+.btn:disabled,
+.btn--disabled {
+	opacity: .5;
+	pointer-events: none;
+}
+
+} //end if

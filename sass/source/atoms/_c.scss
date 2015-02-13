@@ -1,0 +1,22 @@
+@if $use-c == true {
+
+/* 
+   $c
+   ========================================================================== */
+
+//
+// Iterate through the color map and build out classes. Trump the accent color.
+//
+
+@each $name, $bg, $fg in $colors {
+
+	.#{$name} { background: #{$bg}; color: #fff; }
+	
+}
+
+.accent {
+	color: $body-color;
+}
+
+} //end if
+

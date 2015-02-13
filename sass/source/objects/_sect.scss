@@ -1,0 +1,24 @@
+@if $use-sect == true {
+
+/* 
+   $sect
+   ========================================================================== */
+
+//
+// The sect object is used to section off a portion of the page.
+//
+
+.sect__body {
+	margin: 0 auto;
+	max-width: 90%;
+}
+
+@include media(wide) {
+
+	.sect__body {
+		max-width: $sect-width;
+	}
+
+}
+
+} //end if

@@ -1,0 +1,55 @@
+@if $use-embed == true {
+	
+/* 
+   $embed
+   ========================================================================== */
+
+//
+// The embed object embeds content and preserve the aspect ratio.
+//
+
+.embed {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+	.embed:before {
+		display: block;
+		content: "";
+		width: 100%;
+	}
+
+/* 
+   $embed--3-1
+   ========================================================================== */
+
+.embed--3-1:before { 
+	padding-bottom: 33.3%; 
+}
+
+/* 
+   $embed--2-1
+   ========================================================================== */
+
+.embed--2-1:before { 
+	padding-bottom: 50%; 
+}
+
+/* 
+   $embed--16-9
+   ========================================================================== */
+
+.embed--16-9:before { 
+	padding-bottom: 56.25%; 
+}
+
+/* 
+   $embed--4-3
+   ========================================================================== */
+
+.embed--4-1:before { 
+	padding-bottom: 75%; 
+}
+
+} //end if

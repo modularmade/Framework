@@ -1,0 +1,69 @@
+@if $use-nav == true {
+
+/* 
+   $nav
+   ========================================================================== */
+
+//
+// The nav object creates navigation lists.
+//
+// Thanks to ScalesCSS
+//
+
+.nav {
+	@extend %cf;
+	@extend %sp-n;
+	list-style: none;
+	white-space: nowrap;
+}	
+
+	.nav > li, .nav > li > a {
+		display: block;
+	}
+
+@include media(small) {
+
+	.nav > li, .nav > li > a {
+		display: inline-block;
+	}
+
+}
+
+/* 
+   $nav--block
+   ========================================================================== */
+
+.nav--block {
+	line-height: 1;
+}
+
+	.nav--block > li > a {
+		padding: $sp-s;
+	}
+
+/* 
+   $nav--stack
+   ========================================================================== */
+
+.nav--stack > li, .nav--stack > li > a {
+	display: block;
+}
+
+/* 
+   $nav--fit
+   ========================================================================== */
+
+.nav--fit{
+	display: table;
+	table-layout: fixed;
+}
+
+	.nav--fit > li {
+		display: table-cell;
+	}
+
+		.nav--fit > li > a {
+			display: block;
+		}
+
+} //end if

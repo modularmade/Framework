@@ -1,0 +1,12 @@
+/* 
+   $form
+   ========================================================================== */
+
+label {
+    display: block;
+    margin-bottom: $sp-xs;
+}
+
+input + label {
+    display: inline;
+}

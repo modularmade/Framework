@@ -1,0 +1,31 @@
+/* 
+   $hn
+   ========================================================================== */
+
+//
+// Defines our headings and fz atoms. Line-heights are included.
+//
+
+h1, .fz-xxl {
+	@include fz($fz-xxl);
+}
+
+h2, .fz-xl {
+	@include fz($fz-xl);
+}
+
+h3, .fz-l {
+	@include fz($fz-l);	
+}
+
+h4, .fz-m {
+	@include fz($fz-m);	
+}
+
+h5, .fz-s {
+	@include fz($fz-s);	
+}
+
+h6, .fz-xs {
+	@include fz($fz-xs);	
+}

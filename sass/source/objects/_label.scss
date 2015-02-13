@@ -1,0 +1,20 @@
+@if $use-label == true {
+
+/* 
+   $label
+   ========================================================================== */
+
+//
+// The label object creates inline-labels, mostly for form errors.
+//
+
+.label {
+	@extend %mb-m;
+	display: inline-block;
+	padding: $sp-xs;
+    border-radius: $ui-radius;
+	font-size: 85%;	
+}
+
+} //end if
+

@@ -1,0 +1,73 @@
+/* ==========================================================================
+   $SHARED
+   ========================================================================== */
+
+/* 
+   $mb-m
+   ========================================================================== */
+
+//
+// Maintain the vertical rhythm of elements together.
+//
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+hgroup, 
+p, 
+ul, 
+ol, 
+dl, 
+blockquote, 
+address, 
+table, 
+fieldset, 
+figure,  
+pre, 
+caption,
+%mb-m {
+    margin-bottom: $sp-m;
+}
+
+/* 
+   $mb-l
+   ========================================================================== */
+
+//
+// Maintain the horizontal rhythm of elements together.
+//
+
+ul,
+ol {
+    margin-left: $sp-xl;
+}
+
+/* 
+   $mb-n
+   ========================================================================== */
+
+//
+// Emebedded lists should not have a bottom margin.
+//
+
+li > ul,
+li > ol {
+    margin-bottom: 0;
+}
+
+/* 
+   $cf
+   ========================================================================== */
+
+//
+// Clearfix forces containers to enclose floated divs.
+//
+
+%cf:after {
+	clear: both;
+	content: "";
+	display: table;
+}

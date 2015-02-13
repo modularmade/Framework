@@ -1,0 +1,12 @@
+@if $use-td == true {
+
+/* 
+   $td
+   ========================================================================== */
+
+.td-n		{ text-decoration: none; }
+.td-u		{ text-decoration: underline; }
+.td-h 		{ @extend .td-n; }
+.td-h:hover { @extend .td-u; }
+
+} //end if
