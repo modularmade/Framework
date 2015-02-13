@@ -4,14 +4,17 @@
 Science is an object-oriented CSS framework built on best-practice. It supports all modern browsers and IE 8+.
 
 1. **Mobile-first**
+
 	Science uses progressive enhancement to adjust to larger screens.
 
 2. **Abstraction-light**
+
 	Science uses Atoms to keep the amount of abstractions to a minimum.
 
 	[Learn More](http://www.smashingmagazine.com/2013/10/21/challenging-css-best-practices-atomic-approach/)
 
 3. **Extendable**
+
 	Science allows third-party developers to develo plugins and themes.
 
 #Installing
