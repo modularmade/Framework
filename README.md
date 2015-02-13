@@ -15,7 +15,7 @@ Science is an object-oriented CSS framework built on best-practice. It supports 
 
 3. **Extendable**
 
-	Science allows third-party developers to develo plugins and themes.
+	Science allows developers to add their own themes and plugins.
 
 #Installing
 
