@@ -7,6 +7,13 @@
 //
 // The flex object is an alternative to flexbox until its more widely supported.
 //
+// <div class="flex">
+//
+//     <div class="flex__item"></div>
+//     <div class="flex__item"></div>
+//
+// </div>
+//
 
 .flex {
 	display: table;

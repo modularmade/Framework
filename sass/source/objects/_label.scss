@@ -7,6 +7,8 @@
 //
 // The label object creates inline-labels, mostly for form errors.
 //
+// <span class="label danger"></span>
+//
 
 .label {
 	@extend %mb-m;

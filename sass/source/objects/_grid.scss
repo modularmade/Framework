@@ -7,7 +7,12 @@
 //
 // The grid object is used to create a fluid grid with a gutter.
 //
-// Thanks to Harry Roberts
+// <div class="grid">
+//
+//     <div class="grid__item w-1-2"></div>
+//     <div class="grid__item w-1-2"></div>
+//
+// </div>
 //
 
 .grid {

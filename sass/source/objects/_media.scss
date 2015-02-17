@@ -5,9 +5,18 @@
    ========================================================================== */
 
 //
-// The media object floats an image next to content. Requires the img object.  
+// The nav object creates navigation lists.
 //
-// Thanks to Nicole Sullivan
+// <div class="media">
+//
+//     <img class="img--l" />
+//     
+//     <div class="media__body">
+//
+//     </div>
+//
+// </ul>
+//
 
 .media {
 	@extend %cf;

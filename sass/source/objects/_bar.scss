@@ -7,6 +7,12 @@
 //
 // Used to create a progress bar.
 //
+// <div class="bar">
+//
+//     <div class="bar__value"/>
+//
+// </div>
+//
 
 .bar {
 	@extend %cf;
